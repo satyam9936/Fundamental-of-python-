@@ -8,9 +8,9 @@
 '''for line in file :
     print(line)'''
  #using the statement
-'''with open("Filehandling/file.txt", 'r') as file:
+with open("Filehandling/file.txt", 'r') as file:
     data=file.read()
-    print(data)'''
+    print(data)
 #read only the first number of character
 #modes
 
@@ -25,6 +25,6 @@ file.close()      '''
 '''with open('Filehandling/file3.txt','w') as file:
     file.write("hello everyone ")'''
     
-import os
+'''import os
 
-os.remove("Filehandling/file3.txt")
+os.path.isfile("Filehandling/file2.txt")'''
